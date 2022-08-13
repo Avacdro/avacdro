@@ -1,0 +1,52 @@
+.fifth-section{
+  display: flex;
+  height: 200px;
+  background-color: #daffff;
+  padding: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.brand-section-div{
+  width: 340px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  opacity: 0.5;
+}
+.footer-second-section{
+  display: flex;
+  justify-content: center;
+}
+.footer-div{
+  margin: 61px 143px 10px 30px;
+}
+.title{
+  font-weight: 500;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+.img{
+  width: 130px;
+  margin-bottom: 20px;
+}
+.open-text{
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.text{
+  margin: 5px;
+  color: #504f4f;
+}
+.footer-last-section{
+  display: flex;
+  justify-content: space-around;
+  height: 91px;
+  background-color: #f5f5f5;
+  align-content: stretch;
+  flex-wrap: nowrap;
+  align-items: center;
+}
