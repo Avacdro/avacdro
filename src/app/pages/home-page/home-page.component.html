@@ -1,76 +1,156 @@
+<!-------------home section------------------->
 <div>
   <div>
     <img src="assets/image/Home-Page-banner-scaled.jpg" class="home-img">
     <div class="img-text-div">
       <h1 class="main-text">We’re a Global Enterprise Digital Product Engineering Company</h1>
-<!--      <h1 class="enjoy-text">We’re a Global Enterprise Digital Product Engineering Company</h1>-->
       <h4 class="sub-text">Your Technology Partner for Custom Software Development & Digital Transformation</h4>
       <button mat-raised-button class="shop-btn">contact us</button>
     </div>
   </div>
+  <!------------about us section-------------->
+  <div>
+    <div class="second-section-header">
+      <span class="line"></span>
+      <span class="section-text">About Us</span>
+      <span class="line"></span>
+    </div>
+    <div class="second-section-header-two">
+      <h2 class="product-text">Scaling Businesses With Innovative Technology</h2>
+    </div>
+    <div class="details-div">
+      <div class="text-div">
+        <label class="details-text">Our company missions to provide technological advancement to enterprises via
+          innovative solutions.
+          We are a learned team of professionals that creates business software or apps from an idea to its real-user
+          impact.
+          <br/>
+          <br/>
+          Our vision is to grow together. Avacdro works hand-in-hand with businesses, understanding the requirement and
+          importance of each project.
+        </label>
+      </div>
 
+    </div>
+  </div>
+  <!--------------------------->
   <div>
     <div class="third-section">
       <div class="section-div">
-        <div class="div icon-div">
-          <mat-icon class="icon" aria-label="Example  local_shipping icon" fontIcon=" local_shipping"></mat-icon>
-        </div>
         <div class="div">
-          <span class="text-title">ISLAND WIDE</span>
+          <span class="text-title">Creating Value</span>
         </div>
         <div class="div">
           <span class="text-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+           Our goal is to ensure that every company we work with benefits from our digital solutions.
+            We are committed to helping your business based on your specific needs regardless of budget.
           </span>
         </div>
       </div>
       <!---->
       <div class="section-div">
-        <div class="div icon-div">
-          <mat-icon class="icon" aria-label="Example  local_shipping icon" fontIcon=" local_shipping"></mat-icon>
-        </div>
         <div class="div">
-          <span class="text-title">ISLAND WIDE</span>
+          <span class="text-title">Innovation</span>
         </div>
         <div class="div">
           <span class="text-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </span>
+            We want to innovate, create and bring diversity to the digital solution market. We are working towards
+            creating entire digital ecosystems that will help your business reach a whole new level of efficiency.</span>
         </div>
       </div>
       <!---->
       <div class="section-div">
-        <div class="div icon-div">
-          <mat-icon class="icon" aria-label="Example  local_shipping icon" fontIcon=" local_shipping"></mat-icon>
-        </div>
         <div class="div">
-          <span class="text-title">ISLAND WIDE</span>
+          <span class="text-title">People-focused</span>
         </div>
         <div class="div">
           <span class="text-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </span>
-        </div>
-      </div>
-      <!---->
-      <div class="section-div">
-        <div class="div icon-div">
-          <mat-icon class="icon" aria-label="Example  local_shipping icon" fontIcon=" local_shipping"></mat-icon>
-        </div>
-        <div class="div">
-          <span class="text-title">ISLAND WIDE</span>
-        </div>
-        <div class="div">
-          <span class="text-description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
-          </span>
+            At Avacdro we recognise the diversity, creativity and effort of each and every person in our organisation.
+            We believe in open communication and teamwork. We are stronger when we are together.</span>
         </div>
       </div>
     </div>
   </div>
-
+  <!----------------services--------------------->
   <div>
-    <app-footer></app-footer>
+    <div class="second-section-header">
+      <span class="line"></span>
+      <span class="section-text">Our Services</span>
+      <span class="line"></span>
+    </div>
+    <div class="second-section-header-two">
+      <h2 class="product-text">We bring your business forward</h2>
+    </div>
+    <div class="div">
+          <span class="service-description">
+            Call us for any questions related to website design or eCommerce website design.
+            It’s important that you feel comfortable to discuss your thought and ideas about your project. That way,
+            we can known more about your business and to identify the best solutions which fits your business needs.
+          </span>
+    </div>
+  </div>
+  <div class="card-div">
+    <mat-card class="card-service" *ngFor="let data of dataSource">
+      <img src="{{data.img}}}" class="img">
+      <div class="card-title">
+        <h1 class="title-txt">{{data.title}}</h1>
+      </div>
+      <div>
+        <label class="lable-txt">
+          {{data.description}}
+        </label>
+      </div>
+    </mat-card>
+  </div>
+  <!----------------project--------------------->
+  <div class="project-section">
+    <div class="div-section">
+      <h1 class="experiences-title">Digital Experiences Strategically Engineered To Perform</h1>
+      <h3 class="experiences-subtitle">We measure our success by the results we drive for our clients</h3>
+    </div>
+    <div class="div-project">
+<!--      <mat-card class="card-project">-->
+<!--        <img src="assets/image/pr.png" class="project-img">-->
+<!--      </mat-card>-->
+      <img src="assets/image/pr.png" class="project-img">
+      <img src="assets/image/pr2.png" class="project-img">
+      <img src="assets/image/pr3.png" class="project-img">
+    </div>
+  </div>
+  <!----------------contact--------------------->
+  <div class="contact-section">
+    <div class="contact-div">
+      <div class="div-line">
+        <h1 class="contact-title">Let's talk about your product</h1>
+        <h4 class="contact-sub-title">We love engaging with new clients and our community. If you have an inquiry about building digital products
+          or any other questions, get in touch!
+        </h4>
+<!--        <button mat-raised-button class="shop-btn contact-btn">contact us</button>-->
+      </div>
+      <div class="contact-div-two">
+        <mat-card class="contact-card">
+          <h1 class="Sec10Header">Contact us</h1>
+          <form action="">
+            <div>
+              <h4 class="inputText">Name*</h4>
+              <input class="inputBox">
+            </div>
+            <div>
+              <h4 class="inputText">Email*</h4>
+              <input class="inputBox">
+            </div>
+            <div>
+              <h4 class="inputText">Message*</h4>
+              <textarea class="MessageBox"></textarea>
+            </div>
+            <button mat-raised-button class="shop-btn contact-btn">Submit</button>
+          </form>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+  <div>
+    <app-footer class="card"></app-footer>
   </div>
 
 </div>
