@@ -17,6 +17,9 @@ import {MatTableModule} from "@angular/material/table";
 import {MatDividerModule} from "@angular/material/divider";
 import {MatDialogModule} from "@angular/material/dialog";
 import { HomePageComponent } from './pages/home-page/home-page.component';
+import {MatListModule} from "@angular/material/list";
+import {MatSidenavModule} from "@angular/material/sidenav";
+import { FlexLayoutModule } from "@angular/flex-layout";
 
 @NgModule({
   declarations: [
@@ -39,6 +42,10 @@ import { HomePageComponent } from './pages/home-page/home-page.component';
     MatTableModule,
     ReactiveFormsModule,
     MatFormFieldModule,
+    MatToolbarModule,
+    MatSidenavModule,
+    MatListModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

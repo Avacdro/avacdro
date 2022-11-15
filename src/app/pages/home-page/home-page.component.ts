@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { debounceTime, fromEvent, map, tap } from 'rxjs';
+import {VERSION} from "@angular/cdk";
 
 export interface Service {
   img: string;
@@ -45,10 +47,26 @@ const SERVICE: Service[] = [
   styleUrls: ['./home-page.component.scss']
 })
 export class HomePageComponent implements OnInit {
+  name = 'Angular ' + VERSION.major;
 
+  showBtn$ = fromEvent(document, 'scroll').pipe(
+    debounceTime(50),
+    map(() => window.scrollY > 500),
+    tap(() => console.log('sas'))
+  );
+
+  // not Cross browsing (works on chrome - firefox)
+  gotoTop() {
+    window.scroll({
+      top: 0,
+      left: 0,
+      behavior: 'smooth',
+    });
+  }
   constructor() { }
 
   ngOnInit(): void {
   }
+
   dataSource = SERVICE;
 }

@@ -1,17 +1,54 @@
+<!--<div>-->
+<!--  <mat-toolbar>-->
+<!--    <mat-toolbar-row  class="toolbar-two">-->
+<!--      <span class="example-spacer"></span>-->
+<!--      <span href="#home" class="header-text">Home </span>-->
+<!--      <span class="header-text">About Us </span>-->
+<!--      <span class="header-text">Service</span>-->
+<!--      <span class="header-text">Contact</span>-->
+<!--      <button mat-raised-button class="ac-btn">Get Quotation</button>-->
+<!--    </mat-toolbar-row>-->
+<!--  </mat-toolbar>-->
+<!--  <div>-->
+<!--    <app-home-page></app-home-page>-->
+<!--  </div>-->
+
+<!--</div>-->
 <div>
   <mat-toolbar>
-    <mat-toolbar-row  class="toolbar-two">
+    <mat-toolbar-row class="toolbar-two">
+      <button mat-icon-button (click)="sidenav.toggle()" fxShow="true" fxHide.gt-sm>
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>logo</span>
+      <span class="menu-spacer"></span>
       <span class="example-spacer"></span>
-      <span class="header-text">Home </span>
-      <span class="header-text">About Us </span>
-      <span class="header-text">Service</span>
-      <span class="header-text">Contact</span>
-      <button mat-raised-button class="ac-btn">Get Quotation</button>
-
+      <div fxShow="true" fxHide.lt-md>
+        <!-- The following menu items will be hidden on both SM and XS screen sizes -->
+              <span class="example-spacer"></span>
+              <span href="#home" class="header-text">Home </span>
+              <span class="header-text">About Us </span>
+              <span class="header-text">Service</span>
+              <span class="header-text">Contact</span>
+              <button mat-raised-button class="ac-btn">Get Quotation</button>
+      </div>
     </mat-toolbar-row>
   </mat-toolbar>
-  <div>
-    <app-home-page></app-home-page>
-  </div>
 
+  <mat-sidenav-container fxFlexFill>
+    <mat-sidenav #sidenav>
+      <mat-nav-list>
+<!--        <a (click)="sidenav.toggle()" href="" mat-list-item>Close</a>-->
+        <a href="#" mat-list-item>Home</a>
+        <a href="#" mat-list-item>About Us</a>
+        <a href="#" mat-list-item>Services</a>
+        <a href="#" mat-list-item>Contact</a>
+        <button mat-raised-button class="ac-btn">Get Quotation</button>
+      </mat-nav-list>
+    </mat-sidenav>
+    <app-home-page></app-home-page>
+  </mat-sidenav-container>
+<!--  <div>-->
+<!--    <app-home-page></app-home-page>-->
+<!--  </div>-->
 </div>

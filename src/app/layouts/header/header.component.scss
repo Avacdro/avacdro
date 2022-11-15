@@ -44,3 +44,16 @@
 .badge{
   margin-left: 5px;
 }
+#toggle{
+  text-align: right;
+  cursor: pointer;
+  display: none;
+}
+
+//---------------------------------------
+@media all and (min-width: 280px) and (max-width: 500px) {
+  .ac-btn[_ngcontent-xhl-c120] {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+}

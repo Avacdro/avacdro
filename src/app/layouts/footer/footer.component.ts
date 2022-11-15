@@ -28,7 +28,7 @@ const TECHICON: techIcon[] = [
 })
 export class FooterComponent implements OnInit {
   cards = [
-    {img: 'https://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png',},
+    {img: '../../../assets/icon/angular.png'},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',},
     {img: 'https://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png',},
