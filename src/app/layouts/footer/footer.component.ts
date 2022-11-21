@@ -28,10 +28,11 @@ const TECHICON: techIcon[] = [
 })
 export class FooterComponent implements OnInit {
   cards = [
-    {img: '../../../assets/icon/angular.png'},
+    {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png',},
+    {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',},
-    {img: 'https://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png',},
+    {img: 'https://nerdysoft.com/wp-content/uploads/2021/11/angular-icon-1.svg',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png',},
     {img: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/krinnxb23kgp75s0jyhp',},
     {img: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',},
@@ -54,10 +55,10 @@ export class FooterComponent implements OnInit {
     {img: 'https://m.media-amazon.com/images/I/41QodfboFdL.png',},
 
   //  ----------------------
-    {img: 'https://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png',},
+    {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',},
-    {img: 'https://assets.stickpng.com/images/584830f5cef1014c0b5e4aa1.png',},
+    {img: 'https://nerdysoft.com/wp-content/uploads/2021/11/angular-icon-1.svg',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png',},
     {img: 'https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/krinnxb23kgp75s0jyhp',},
     {img: 'https://cdn.pixabay.com/photo/2015/04/23/17/41/node-js-736399_1280.png',},
@@ -78,7 +79,6 @@ export class FooterComponent implements OnInit {
     {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Wordpress_Blue_logo.png/1200px-Wordpress_Blue_logo.png',},
     {img: 'https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png',},
     {img: 'https://m.media-amazon.com/images/I/41QodfboFdL.png',},
-
 
   ];
   constructor() {
