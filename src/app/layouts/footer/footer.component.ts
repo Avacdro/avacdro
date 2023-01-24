@@ -53,8 +53,6 @@ export class FooterComponent implements OnInit {
     {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Wordpress_Blue_logo.png/1200px-Wordpress_Blue_logo.png',},
     {img: 'https://seeklogo.com/images/S/spring-logo-9A2BC78AAF-seeklogo.com.png',},
     {img: 'https://m.media-amazon.com/images/I/41QodfboFdL.png',},
-
-  //  ----------------------
     {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',},
