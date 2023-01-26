@@ -11,32 +11,34 @@ const SERVICE: Service[] = [
   {
     img: 'https://z-thinkers.com/wp-content/uploads/2021/09/Web-Development-1.png',
     title: 'Web Development',
-    description: 'We deliver perfect cloud-based web solutions exploiting our significant expertise on latest technologies'
+    description: 'At Avacdro, we specialize in delivering unparalleled cloud-based web solutions utilizing our extensive expertise in the latest technologies.'
   },
   {
     img: 'http://alcinfotech.com/wp-content/uploads/2021/10/App-Development-Company-for-React.png',
     title: 'Mobile Development',
-    description: 'Our engineers with a set of comprehensive skills develop iOS & Android mobile applications of any complexity'
+    description: 'Our team of skilled engineers at Avacdro specialize in creating iOS & Android mobile applications of any complexity, utilizing a comprehensive set of skills.'
   },
   {
     img: 'https://z-thinkers.com/wp-content/uploads/2021/09/Web-Development-1.png',
     title: 'Software Testing',
-    description: 'We offer you comprehensive software quality assurance services that meet your requirements and business objectives.'
+    description: 'At Avacdro, we pride ourselves on delivering exceptional software quality assurance services that are tailored to meet your specific requirements and business objectives, ensuring the highest level of excellence.'
   },
   {
     img: 'https://www.pngmart.com/files/3/Cloud-Computing-PNG-Photo.png',
     title: 'Cloud Service',
-    description: 'We support your business at every stage of product development and solve your business problems with our Cloud services.'
+    description: 'We are committed to supporting your business throughout every stage of product development and providing our Cloud services to solve your business problems, ensuring that you achieve your goals in an efficient and effective manner.'
   },
   {
     img: 'https://z-thinkers.com/wp-content/uploads/2021/09/Web-Development-1.png',
-    title: 'Artificial Intelligence based Solutions',
-    description: 'We deliver perfect cloud-based web solutions exploiting our significant expertise on latest technologies'
+    title: 'AI based Solutions',
+    description: 'We offer cutting-edge artificial intelligence services to help businesses harness the power of AI to ' +
+      'automate processes, gain insights, and improve decision making.'
   },
   {
     img: 'https://www.pngall.com/wp-content/uploads/5/Social-Media-Digital-Marketing-PNG-Images.png',
     title: 'Digital Marketing',
-    description: 'We deliver perfect cloud-based web solutions exploiting our significant expertise on latest technologies'
+    description: 'We provide comprehensive digital marketing services that help businesses increase brand awareness ' +
+      'and drive online conversions.'
   },
 
 

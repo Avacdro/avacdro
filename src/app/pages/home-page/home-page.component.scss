@@ -376,7 +376,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 50px;
+  padding: 22px;
   background-color: #edf4fc;
   width: 250px;
   height: 388px;
@@ -513,7 +513,13 @@
   color: #fff;
   margin-top: 50px;
   font-size: 37px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+  line-height: 45px;
 }
 .experiences-subtitle{
   color: #ffffff;
@@ -535,6 +541,7 @@
   margin: 100px 0 0 0;
   font-size: 45px;
   color: #224366;
+  line-height: 47px;
 }
 .contact-sub-title{
   margin: 30px 0 0 0;
