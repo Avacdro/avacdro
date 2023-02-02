@@ -30,7 +30,6 @@ export class FooterComponent implements OnInit {
   cards = [
     {img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/800px-HTML5_logo_and_wordmark.svg.png',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
-    {img: 'https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png',},
     {img: 'https://www.freepnglogos.com/uploads/javascript-png/javascript-shield-logo-icon-2.png',},
     {img: 'https://nerdysoft.com/wp-content/uploads/2021/11/angular-icon-1.svg',},
     {img: 'https://cdn.freebiesupply.com/logos/large/2x/hibernate-logo-png-transparent.png',},

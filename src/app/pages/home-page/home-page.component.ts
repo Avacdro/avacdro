@@ -30,7 +30,7 @@ const SERVICE: Service[] = [
   },
   {
     img: 'https://z-thinkers.com/wp-content/uploads/2021/09/Web-Development-1.png',
-    title: 'AI based Solutions',
+    title: 'AI Based Solutions',
     description: 'We offer cutting-edge artificial intelligence services to help businesses harness the power of AI to ' +
       'automate processes, gain insights, and improve decision making.'
   },

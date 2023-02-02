@@ -19,9 +19,9 @@
   justify-content: center;
 }
 .logo{
-  width: 80px;
-  height: 50px;
-  margin-left: 68px;
+  width: 210px;
+  //height: 50px;
+  //margin-left: 68px;
   cursor: pointer;
 }
 .ac-btn{
@@ -93,8 +93,9 @@
   position: absolute;
   text-transform: inherit;
   bottom: 17%;
-  left: 100px;
+  //left: 100px;
   width: 800px;
+  padding: 24px;
 }
 .main-text{
   font-size: 60px;
@@ -520,6 +521,7 @@
   flex-wrap: nowrap;
   text-align: center;
   line-height: 45px;
+  text-transform: uppercase;
 }
 .experiences-subtitle{
   color: #ffffff;
@@ -534,7 +536,9 @@
   display: flex;
 }
 .div-line{
-  margin-left: 50px;
+  //margin-left: 50px;
+  padding: 20px;
+  width: 50%;
 }
 
 .contact-title{
@@ -554,11 +558,12 @@
 }
 .contact-div-two{
   margin-top: 35px;
-  margin-left: 90px;
+  //margin-left: 90px;
   padding: 20px;
+  width: 50%;
 }
 .contact-card{
-  width: 446px;
+  width: 95%;
   //height: 499px;
   //padding: 40px;
 }
@@ -616,7 +621,7 @@
 
 /*==================== MEDIA QUERIES ====================*/
 /* For small devices */
-@media screen and (min-width: 280px) and (max-width: 500px) {
+@media screen and (min-width: 1px) and (max-width: 500px) {
   .ac-btn{
     margin-left: 16px;
     margin-right: 16px;
@@ -649,11 +654,29 @@
     line-height: 1.5;
     color: #fff;
   }
+//  ----------------------
+  .card-service{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 22px;
+    background-color: #edf4fc;
+    width: 250px;
+    height: 476px;
+    margin: 20px;
+    align-content: center;
+    margin-top: 30px;
+
+    .lable-txt{
+      margin-top: 20px;
+    }
+  }
 
 //-----------------------
 
   .product-text{
     font-size: 20px;
+    padding: 10px;
   }
   .second-section-header-two{
     text-align: center;
@@ -671,15 +694,20 @@
     display: flex;
     height: auto;
     background-color: #edf4fc;
-    padding: 10px;
+    padding: 70px 10px 10px 10px;
     justify-content: flex-start;
     margin-top: 50px;
     flex-direction: column;
   }
   .section-div{
     width: auto;
-    height: 170px;
-    padding: 35px;
+    height: 229px;
+    padding: 11px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    text-align: center;
   }
   //-----------------------
   .div-section{
@@ -692,12 +720,12 @@
   .experiences-title{
     color: #fff;
     margin-top: 50px;
-    font-size: 37px;
+    font-size: 30px;
     line-height: 46px;
     font-family: inherit;
   }
   .div-project{
-    margin: 76px;
+    margin: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -724,6 +752,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 90%;
   }
   .contact-div-two{
     padding: 20px;
@@ -731,6 +760,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    width: 85%;
+    margin-top: 0;
   }
   .contact-card{
     width: 100%;
@@ -746,13 +777,14 @@
   }
   .contact-title{
     margin: 0;
-    font-size: 42px;
+    font-size: 33px;
   }
   .contact-section{
     height: auto;
     width: 100%;
     margin-bottom: 30px;
   }
+
 }
 
 //-------------- for medium devices --------------
