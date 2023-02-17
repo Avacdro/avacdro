@@ -32,9 +32,8 @@
   align-content: stretch;
   flex-wrap: nowrap;
   flex-direction: row;
-  //animation: slideshow 200s infinite;
-  animation: slideshow 20s infinite;
-  //transform: translateX(0);
+  transform: translateX(calc(100px * 28));
+  animation: slideshow linear 50s infinite;
   //opacity: 0.5;
   //position: relative;
   //left: 0;
@@ -100,18 +99,15 @@
 
 // 49 images
 @keyframes slideshow {
-  0%{
-    //transform: translateX(100px * 45);
-    transform: translateX(100px * 4);
+  100%{
+    transform: translateX(-100px * 20);
   }
-  50% {
-    //transform: translateX(calc(-100px * 45));
-    transform: translateX(calc(-100px * 4));
-  }
-  100% {
-    //transform: translateX(calc(100px * 45));
-    transform: translateX(calc(100px * 4));
-  }
+  /*50% {
+    transform: translateX(calc(-100px * 41));
+  }*/
+  /*100% {
+    transform: translateX(calc(-100px * 24));
+  }*/
 }
 .vertical-line{
   height: 500px;
